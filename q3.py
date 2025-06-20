@@ -1,5 +1,3 @@
-# Q3.py
-
 def load_scores(filename):
     scores = []
     try:
@@ -42,7 +40,7 @@ def show_top_n(scores):
         print("Please enter a valid number.")
 
 def sort_scores(scores):
-    # Simple manual sorting (descending)
+
     sorted_scores = scores[:]
     for i in range(len(sorted_scores)):
         for j in range(i+1, len(sorted_scores)):
